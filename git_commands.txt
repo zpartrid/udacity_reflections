@@ -1,0 +1,107 @@
+Working with local repositories
+git init
+git add
+git commit
+git status
+git config
+git branch
+git checkout
+git merge
+git diff
+Working with remote repositories
+git remote
+git clone
+git pull
+git push
+Advanced Git Commands
+git stash
+git log
+git rm
+C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\game_asteroid
+C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\game_asteroid\\asteroids
+git diff b0678b161fcf74467ed3a63110557e3d6229cfa6 f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+git checkout b0678b161fcf74467ed3a63110557e3d6229cfa6
+git checkout 3884eab839af1e82c44267484cf2945a766081f3
+git checkout f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+git checkout 25ede836903881848fea811df5b687b59d962da3
+git checkout 4035769377cce96a88d5c1167079e12f30492391
+git checkout 3e42136a76cf78c6c421cd720427bf6337c2d623
+git checkout df035382c41b4d0cda86a1aa30b53f15bef05b53
+
+git diff 25ede836903881848fea811df5b687b59d962da3 df035382c41b4d0cda86a1aa30b53f15bef05b53
+
+
+cd C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\Zack_Temp
+diff -u file.txt updated.txt
+
+
+Git command review
+Compare two commits, printing each line that is present in one commit but not the other.
+git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+git clone will do this. It takes one argument - the url of the repository to copy. 
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+git checkout will do this. It takes one argument - the commit ID to restore. 
+
+Show the commits made in this repository, starting with the most recent.
+git log will do this. It doesn't take any arguments.
+
+C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\pappu\\pappu-pakia
+In case you forget it and need it again, here is the ID of the most recent commit in the repository: fa4c6bade4970c282b3870ad16f1bde8164663a9
+The commit that introduced this bug has the ID 547f4171a82ec6429d002c1acef357aec41d3f17
+git diff 71d5 547f
+
+cd C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\reflections
+git initg
+git add lesson1.txt
+git add lesson2.txt
+
+git commit
+
+C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\reflections
+
+
+121
+down vote
+favorite
+35
+I run git from the command line.
+How does one save the commit message?
+I mean what keys should I press to go past this screen:
+You are inside vim. To save changes and quit, type: 
+<esc> :wq <enter>
+That means:
+Press Escape. This should make sure you are in command mode
+type in :wq
+Press Return
+
+cd C:\\Users\\Zack\\Documents\\UdaCityGitTutorial\\game_asteroid\\asteroids
+
+git log --graph --oneline
+git log --graph --oneline master easy-mode
+
+Zack@IFTATAX MINGW64 ~/Documents/UdaCityGitTutorial/reflections (master)
+$
+git remote -v
+git add git_commands.txt
+git commit
+git push origin_reflections master
+https://github.com/zpartrid/udacity_reflections
+git remote add orign_reflections https:////github.com//zpartrid//udacity_reflections.git
+git remote remove origin_reflections
+git remote remove origin_reflections2
+
+git remote add orign_reflections2 https:////github.com//zpartrid//udacity_reflections.git
+git push origin_reflections2 master
+git remote add orign_reflections https:////github.com//zpartrid//udacity_reflections.git
+zpartrid/udacity_reflections 
+Your site is ready to be published at  https://zpartrid.github.io/udacity_reflections/
+git remote add orign_reflections2 https://zpartrid.github.io/udacity_reflections/
+git@github.com:zpartrid.github.io/udacity_reflections.git
+git remote add orign_reflections3 git@github.com:zpartrid.github.io/udacity_reflections.git
+git push origin_reflections3 master
+
