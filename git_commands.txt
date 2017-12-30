@@ -104,4 +104,4 @@ git remote add orign_reflections2 https://zpartrid.github.io/udacity_reflections
 git@github.com:zpartrid.github.io/udacity_reflections.git
 git remote add orign_reflections3 git@github.com:zpartrid.github.io/udacity_reflections.git
 git push origin_reflections3 master
-
+https://github.com/zpartrid/udacity_reflections
